@@ -1,9 +1,11 @@
+#[derive(Debug)]
 pub enum AbilityType {
     Physical,
     Magic,
     Hybrid,
 }
 
+#[derive(Debug)]
 pub struct Ability {
     name: String,
     category: AbilityType,

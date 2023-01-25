@@ -2,6 +2,7 @@ use crate::models::Character;
 
 const READY: u32 = 200;
 
+#[derive(Debug)]
 pub struct Fiend {
     name: String,
     life_total: u32,

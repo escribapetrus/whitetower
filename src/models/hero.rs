@@ -3,6 +3,7 @@ use crate::models::Character;
 
 const READY: u32 = 200;
 
+#[derive(Debug)]
 pub struct Hero {
     name: String,
     life_total: u32,
